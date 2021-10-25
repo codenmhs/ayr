@@ -1,0 +1,9 @@
+To run jupyter from localhost, first install it with 
+
+py -m pip install jupyter
+
+then 
+
+py -m jupyter notebook
+
+will open an instance in a new tab.
