@@ -7,3 +7,13 @@ then
 py -m jupyter notebook
 
 will open an instance in a new tab.
+
+--
+
+Including images in Markdown cells: 
+
+The following works in Binder: 
+![image info](./media/triang_nums.png)
+
+But not in Jupyter from localhost, while the following works in both: 
+![triang_nums.png](attachment:triang_nums.png)
